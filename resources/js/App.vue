@@ -1,9 +1,6 @@
 <template>
-    <div>
-        <h3>hello vue app</h3>
-    </div>
+<h1>Hello vue page</h1>
 </template>
-
 <script>
 export default {
     name: 'ProjectApp',

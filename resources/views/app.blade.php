@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     @vite('resource/css/app.css')
+    
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="/assets/vendor/css/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="/assets/vendor/css/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="/assets/css/demo.css">
 </head>
 <body>
-    <h2> hello laravel app</h2>
+      <div id="app-vue"></div>
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="/assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="/assets/vendor/libs/popper/popper.js"></script>
+  <script src="/assets/vendor/js/bootstrap.js"></script>
+  <script src="/assets/vendor/libs/node-waves/node-waves.js"></script>  <script src="/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     @vite('resource/js/app.js')
-    <hr>
-      
-      <div id="app.vue">
-          hello view
-      </div>
 </body>
 </html>
