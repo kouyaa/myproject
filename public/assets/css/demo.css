@@ -10,8 +10,11 @@
 .dark-style .menu .app-brand.demo {
   height: 64px;
 }
-
-.app-brand-logo.demo svg {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400&family=Noto+Serif+Lao:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+  font-family: Noto Sans Lao;
+}
+p-brand-logo.demo svg {
   width: 30px;
   height: 24px;
 }
